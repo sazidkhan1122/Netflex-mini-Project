@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.back-image {
+
+  top: -1rem;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(../Images/Netflex\ Back\ image.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  
+}
+.boder-gray{
+
+  border-bottom: 7px solid rgb(69, 69, 69);
+}
+ .logo {
+  width: 180px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+.select-menu{
+  background-color: red;
+}
+
+/* .image2{
+  width: 90%;
+  height: auto;
+
+} */
+
+
+.sazid-btn{
+  transition: all 1s !important;
+}
+ .sazid-btn:hover {
+  background-color:  rgb(69, 69, 69) !important;
+  }
+
+  /* image and video section */
+  /* .image{
+  width: 130%;
+  height: auto;
+
+} */
+
+  .image1-div{
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    /* background-color: brown; */
+  }
+  .image1-video{
+    position: absolute;
+    left: 5.5rem;
+    top: 8px;
+    z-index: -1;
+  }
+  .image1-video video{
+  
+    height: 410px;
+    width: 430px;
+
+  }
+   /* 2nd vodeo */
+
+   .image2-div{
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    /* background-color: brown; */
+  }
+  .image2-video{
+    position: absolute;
+    left: 7.6rem;
+    top: -16px;
+    z-index: -1;
+  }
+  .image2-video video{
+  
+    height: 355px;
+    width: 360px;
+
+  }
+
+  /* footter-list */
+  ul{
+    
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 0;
+    
+  
+   
+}
+li{
+  padding: 7px;
+}
+ul li a {
+ text-decoration: underline;
+ color: white; 
+
+}
+ 
+.sazid-width
+{
+
+  width: 8rem;
+}
+  /* <ul>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">Account</a></li>
+        <li><a href="">Jobs</a></li>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Only on Netflix</a></li>
+      </ul>
+        <li><a href="">Gift Card Terms</a></li>
+        <li><a href="">Media Centre</a></li>
+        <li><a href="">Ways to Watch</a></li>
+        <li><a href="">Cookie Preferences</a></li>
+        <li><a href="">Speed Test</a></li>
+
+        <li><a href="">Help Centre</a></li>
+        <li><a href="">Investor Relations</a></li>
+        <li><a href="">Terms of Use</a></li>
+        <li><a href="">Corporate Information</a></li>
+        <li><a href="">Legal Notices</a></li>
+
+      </ul> */
